@@ -1,0 +1,119 @@
+
+.title1{
+	padding-left: 23%;
+}
+.collapsible,.collapsible-body,.collapsible-header,.collapsible-body p
+{
+	text-align: left;
+	font-size: 14px;
+	color:#111111;
+	position:relative;
+	z-index: 10;
+}
+#featured-wrapper
+{
+	background: #FFFFFF;
+}
+.ebox1,.ebox2
+{
+	background: #E3E3E3;
+}
+ul {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+i.left {
+  float: left;
+  margin-right: 15px;
+}
+
+i.right {
+  float: right;
+  margin-left: 15px;
+}
+
+i.tiny {
+  font-size: 1rem;
+}
+
+i.small {
+  font-size: 2rem;
+}
+
+i.medium {
+  font-size: 4rem;
+}
+
+i.large {
+  font-size: 6rem;
+}
+.collapsible {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.collapsible-header {
+  display: block;
+  cursor: pointer;
+  min-height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.collapsible-header i {
+  width: 2rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  display: block;
+  float: left;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.collapsible-body {
+  display: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.collapsible-body p {
+  margin: 0;
+  padding: 2rem;
+}
+.material-icons {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: 'liga';
+     -moz-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+nav i.material-icons {
+  display: block;
+  font-size: 2rem;
+  height: 56px;
+  line-height: 56px;
+}
+.input-field input[type=search]:focus + label i,
+.input-field input[type=search]:focus ~ .mdi-navigation-close,
+.input-field input[type=search]:focus ~ .material-icons {
+  color: #444;
+}
+.input-field input[type=search] ~ .mdi-navigation-close,
+.input-field input[type=search] ~ .material-icons {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: .3s color;
+}
